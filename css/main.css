@@ -87,6 +87,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+  font-family: "Heebo", sans-serif;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -94,11 +98,6 @@ textarea {
 /*
  * Hide visually and from screen readers
  */
-
-.hidden,
-[hidden] {
-  display: none !important;
-}
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -260,4 +259,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
